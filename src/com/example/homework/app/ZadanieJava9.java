@@ -11,13 +11,12 @@ public class ZadanieJava9 {
 
         for (number = 0; number < tablica.length; number++) {
 
-            tablica[number] = number + 10;
+            tablica[number] = number + 120;
 
 
-            if (tablica[number] % 2 == 1) {
+            if (number % 2 == 0) {
 
                 sumNum += tablica[number];
-
 
             }
 
