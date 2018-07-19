@@ -26,11 +26,15 @@ public class CoordinatesJava11 {
             System.out.println("Punkt leży w trzeciej ćwiartce.");
         }
 
-        else{
+        else if(coordinateX < 0 && coordinateY > 0){
 
             System.out.println("Punkt leży w czwartej ćwiartce.");
         }
 
+        else {
+
+            System.out.println("Srodek układu kartezjańskiego.");
+        }
 
     }
 
