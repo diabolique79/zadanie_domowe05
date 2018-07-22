@@ -19,26 +19,21 @@ public class ZadanieJava13 {
             if (number < 100 || number > 200) {
 
                 System.out.println("Liczba znajduje się poza przedziałem.");
+            } else if (number % 3 == 0 && number < quessNumber) {
+
+                System.out.println("Liczba jest za mała.");
+
+            } else if (number % 3 == 0 && number > quessNumber) {
+                System.out.println("Liczba jest za duża.");
+
+            } else if (number % 3 != 0){
+                System.out.println("Liczba nie jest podzielna przez 3.");
             }
-
-            else{
-                    if (number % 3 == 0) {
-                        if (number < quessNumber) {
-
-                            System.out.println("Liczba jest za mała.");
-
-                        } else if (number > quessNumber){
-                            System.out.println("Liczba jest za duża.");
-
-                        }
-                    } else {
-                        System.out.println("Liczba nie jest podzielna przez 3.");
-                    }
-                }
-
-
         }
+
         System.out.println("Brawo, zgadłeś.");
-
-        }
     }
+
+
+}
+
