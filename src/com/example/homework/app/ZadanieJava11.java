@@ -19,6 +19,6 @@ public class ZadanieJava11 {
 
         CoordinatesJava11 coordinatesJava11 = new CoordinatesJava11(coordinateX, coordinateY);
 
-        coordinatesJava11.CoordinateSystem(coordinateX, coordinateY);
+        coordinatesJava11.CoordinateSystem();
     }
 }

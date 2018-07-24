@@ -10,9 +10,9 @@ public class CoordinatesJava11 {
         this.coordinateY = coordinateY;
     }
 
-    public void CoordinateSystem(double coordinateX, double coordinateY){
+    public void CoordinateSystem(){
 
-        if(coordinateX > 0 && coordinateY > 1){
+        if(coordinateX > 0 && coordinateY > 0){
 
             System.out.println("Punkt leży w pierwszej ćwiartce.");
         }
@@ -26,7 +26,7 @@ public class CoordinatesJava11 {
             System.out.println("Punkt leży w trzeciej ćwiartce.");
         }
 
-        else if(coordinateX < 0 && coordinateY > 0){
+        else if(coordinateX > 0 && coordinateY < 0){
 
             System.out.println("Punkt leży w czwartej ćwiartce.");
         }
