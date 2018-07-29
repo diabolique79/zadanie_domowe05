@@ -17,8 +17,8 @@ public class ZadanieJava11 {
         System.out.println("Wprowadź współrzędną Y: ");
         double coordinateY = scanner.nextDouble();
 
-        CoordinatesJava11 coordinatesJava11 = new CoordinatesJava11(coordinateX, coordinateY);
+        CoordinatesJava11 coordinatesJava11 = new CoordinatesJava11();
 
-        coordinatesJava11.CoordinateSystem();
+        coordinatesJava11.CoordinateSystem(coordinateX, coordinateY);
     }
 }
